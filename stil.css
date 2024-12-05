@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mountains-of-christmas-bold {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h1{
+	
+	padding: 20px;
+    text-align: center;
+    position:static;
+    top: 0;
+    left: 0;
+}
+p1{
+	display:inline-block;
+	float: none;
+	border: 2px solid black;
+	background-color: cornsilk;
+	   
+}
+body{
+	letter-spacing: 1.5px;
+	background-image: url("slike/bozic.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+}
+ol{
+	
+	 padding: 30px;
+	display:inline-block;
+	float: none;
+	border: 2px solid black;
+	background-color: cornsilk;
+	text-align: left;
+}
+div.list{
+	text-align: center;
+}
+img{
+	width: 200px;
+	height: auto;
+	display: block;
+	margin:auto;
+	border:10px solid green;
+	padding: 10px;
+}
+iframe{
+	width: 500px;
+	height: 800px;
+	display: block;
+	margin:auto;
+	
+}
+h2{
+	
+	padding: 20px;
+    text-align: center;
+    position:static;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 1024px) {
+    h1, h2 {
+        font-size: 30px;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    iframe {
+        width: 500px;
+    }
+
+    ol {
+        padding: 30px;
+    }
+
+    .p1 {
+        padding: 30px;
+    }
+}
